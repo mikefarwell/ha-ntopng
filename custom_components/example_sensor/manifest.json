@@ -2,7 +2,7 @@
   "domain": "ntopng",
   "name": "ntopng",
   "after_dependencies": [],
-  "codeowners": ["@mikefarwell@],
+  "codeowners": ["@mikefarwell"],
   "dependencies": [],
   "documentation": "https://github.com/mikefarwell/ha-ntopng/tree/master/",
   "integration_type": "hub",
