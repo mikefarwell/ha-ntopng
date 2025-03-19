@@ -1,10 +1,16 @@
 {
-  "domain": "example_sensor",
-  "name": "Example Sensor",
-  "codeowners": [],
+  "domain": "ntopng",
+  "name": "ntopng",
+  "after_dependencies": [],
+  "codeowners": ["@mikefarwell@],
   "dependencies": [],
-  "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
+  "documentation": "https://github.com/mikefarwell/ha-ntopng/tree/master/",
+  "integration_type": "hub",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/mikefarwell/ha-ntopng/issues",
   "requirements": [],
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "config_flow": true,
+  "single_config_entry": true
+ "quality_scale": "bronze"
 }
